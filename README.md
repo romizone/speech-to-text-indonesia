@@ -53,15 +53,45 @@ license: mit
 
 ---
 
-## 🏠 Overview
+## 🏠 About
 
-<img src="https://user-images.githubusercontent.com/74038190/238353480-219bcc70-f5dc-466b-9a60-29653d8e8433.gif" width="38" align="left" />
+<div align="center">
 
-Proyek ini menyediakan solusi **end-to-end** untuk mengonversi speech (ucapan) dalam **Bahasa Indonesia** menjadi teks secara otomatis. Aplikasi mendukung input berupa file audio maupun video, dengan ekstraksi audio otomatis untuk file video menggunakan FFmpeg.
+<img src="https://user-images.githubusercontent.com/74038190/238353480-219bcc70-f5dc-466b-9a60-29653d8e8433.gif" width="50" />
+
+### _"Every voice deserves to be heard. Every word deserves to be written."_
+
+</div>
+
+<br/>
+
+**270 juta penduduk Indonesia berbicara setiap hari. Tapi siapa yang mendengarkan?**
+
+Rapat berjam-jam, meeting yang tidak ada notulennya, podcast yang tidak punya transkrip, video YouTube tanpa subtitle — jutaan kata terbuang begitu saja ke udara. Hilang. Tidak tercatat. Tidak terdokumentasi.
+
+**Sampai sekarang.**
+
+Proyek ini bukan sekadar "speech-to-text biasa". Ini adalah **senjata** bagi siapa saja yang lelah mengetik manual, lelah memutar ulang rekaman, dan lelah kehilangan informasi penting dari percakapan yang sudah lewat.
+
+<div align="center">
+
+### 🔥 Yang membuat ini berbeda:
+
+</div>
+
+> **Bukan mainan.** Ini menggunakan **Whisper Large v3** — model speech recognition terbaik dari OpenAI dengan **1.55 miliar parameter** yang dilatih dari **5 juta jam** data audio multilingual. Bukan model ecek-ecek.
+>
+> **Bukan cuma audio.** Lempar file **MP4, MKV, AVI** — video apapun. Audio diekstrak otomatis. Tidak perlu convert manual. Tidak perlu tools tambahan.
+>
+> **Bukan cuma transkripsi.** Mau langsung **translate ke English**? Satu klik. Mau **timestamps** per kalimat untuk navigasi video panjang? Satu centang. Done.
+>
+> **Bukan cloud yang mahal.** Self-hosted. Gratis. Open source. Data audio kamu **tidak pernah** dikirim ke server manapun. Privasi 100%.
 
 <br/>
 
 <div align="center">
+
+### ⚡ Bagaimana cara kerjanya?
 
 ```
 ┌──────────────┐     ┌──────────────┐     ┌──────────────┐     ┌──────────────┐
@@ -70,7 +100,30 @@ Proyek ini menyediakan solusi **end-to-end** untuk mengonversi speech (ucapan) d
 └──────────────┘     └──────────────┘     └──────────────┘     └──────────────┘
 ```
 
+**Drop file. Klik tombol. Selesai.** Tidak ada signup. Tidak ada API key. Tidak ada bullshit.
+
 </div>
+
+<br/>
+
+<div align="center">
+
+### 🎯 Siapa yang butuh ini?
+
+| | Persona | Use Case |
+|:---:|---|---|
+| 🎓 | **Mahasiswa** | Transkrip rekaman kuliah jadi catatan instan |
+| 💼 | **Profesional** | Notulen meeting otomatis tanpa effort |
+| 🎙️ | **Content Creator** | Subtitle video Indonesia & English dalam hitungan menit |
+| 📰 | **Jurnalis** | Transkrip wawancara tanpa harus rewind berkali-kali |
+| 👨‍💻 | **Developer** | Self-hosted STT tanpa bayar API per menit |
+| 🏢 | **Perusahaan** | Dokumentasi meeting internal yang aman & privat |
+
+</div>
+
+> _"Kamu bisa terus mengetik manual. Atau kamu bisa biarkan AI yang bekerja untukmu."_
+>
+> **Pilihan ada di tanganmu.**
 
 ---
 
